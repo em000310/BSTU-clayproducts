@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.header {
+  width: 1024px;
+  height: 780px;
+  margin: 0 auto;
+  background-color: #2586CD;
+}
+
+.container-header {
+  margin: 0 24px;
+}
+
+.header-line {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: inter;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  transition: color 0.5 linear;
+}
+
+.nav a:hover {
+  color: #0DF9F9;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.header-main-left {
+  color: #fff;
+  font-family: "Baloo Chettan 2", cursive;
+  font-style: normal;
+}
+
+.header-main-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 92px;
+  margin-top: 135px;
+}
+
+.header-main-info {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+  margin-top: 41px;
+}
+
+.header-main-button {
+  margin-top: 75px;
+}
+
+.header-main-btn {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #2586CD;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 12px 16px;
+  transition: background-color 0.5 linear;
+  transition: color 0.5 linear;
+}
+
+.header-main-btn:hover {
+  background-color: #0DF9F9;
+  color: #fff;
+}
+
+.header-main-right img {
+  width: 394px;
+  height: 626px;
+  margin-left: 29px;
+}
+
+.section-about-us {
+  width: 1024px;
+  height: 780px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.container-abous-us {
+  margin: 0 24px;
+}
+
+.about-us {
+  padding-top: 36px;
+  display: flex;
+}
+
+.about-us-left img {
+  width: 452px;
+  height: 708px;
+}/*# sourceMappingURL=style.css.map */

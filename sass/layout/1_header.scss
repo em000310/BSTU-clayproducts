@@ -1,12 +1,17 @@
-.header {
-  width: 1024px;
-  height: 780px;
-  margin: 0 auto;
-  background-color: #2586CD;
+
+/*header*/
+
+.header-back {
+  background-color: #0094FF;
 }
 
 .container-header {
-  margin: 0 24px;
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+}
+.header{
+	margin: 0 24px;
 }
 
 .header-line {
@@ -18,7 +23,7 @@
 
 .nav {
   display: flex;
-  gap: 26px;
+  gap: 24px;
 }
 
 .nav a {
@@ -29,7 +34,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  transition: color 0.5 linear;
 }
 
 .nav a:hover {
@@ -48,7 +52,7 @@
   font-style: normal;
 }
 
-.header-main-title {
+.header-main-title h1{
   font-weight: 800;
   font-size: 64px;
   line-height: 92px;
@@ -59,7 +63,6 @@
   font-weight: 600;
   font-size: 41.3px;
   line-height: 58px;
-
   margin-top: 27px;
 }
 

@@ -1,0 +1,58 @@
+
+/*Availability*/	
+
+.section-availability {
+  background-color: #fff;
+}
+
+.container-availability {
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+}
+
+.availability{
+	color: #0094FF;
+
+	padding-top: 18px;	
+}
+
+.availability-title h3{
+	font-family: "Baloo Chettan 2", cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.avability-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.availability-cards{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 17px;
+
+	margin-top: 70px;
+}
+
+.availability-cards-top, .availability-cards-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.availability-card{
+	width: 198px;
+	height: 251px;
+	border: #0DF9F9 solid 1px;
+}
+
+.availability-cards-bottom{
+	margin-top: 59px;
+}

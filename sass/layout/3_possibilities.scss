@@ -1,0 +1,51 @@
+
+/*Possibilities*/	
+
+.section-possibilities {
+  background-color: #0094FF;
+}
+
+.container-section-possibilities {
+	width: 1024px;
+  height: 473px;
+	margin: 0 auto;
+}
+
+.possibilities{
+	color: #fff;
+	text-transform: capitalize;
+	font-family: "Baloo Chettan 2", cursive;
+
+	padding-top: 45px;	
+}
+
+.possibilities-title h3{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	letter-spacing: 0.3px;
+	text-align: center;
+}
+
+.possibilities-blocks{
+	display: flex;
+	justify-content: space-between;
+
+	padding: 0 111px;
+	margin-top: 34px;
+}
+
+.possibilities-blocks-left, .possibilities-blocks-right{
+	text-align: center;
+	width: 230px;
+	height: 220px;
+}
+
+.possibilities-blocks-left h3, .possibilities-blocks-right h3{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}

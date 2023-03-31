@@ -1,0 +1,42 @@
+
+/*video*/	
+
+.section-video {
+  background-color: #0094FF;
+}
+
+.container-video {
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+}
+
+.video-title h3{
+	font-family: "Baloo Chettan 2", cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 52px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #fff;
+
+	padding: 45px 0 35px;
+}
+
+.video-image{
+	background-image: url(assets/jpg/video.jpg);
+	height: 522px;
+	
+}
+	
+.video-image-container{
+	height: 100%;
+  width: 100%;
+	background-color: rgba(0, 0, 0, .35);
+}
+
+.video-image-container img{
+	margin-top: 196px;
+	margin-left: 447px;
+}

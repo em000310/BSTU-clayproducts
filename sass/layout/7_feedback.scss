@@ -1,0 +1,45 @@
+
+/*feedback*/
+
+.section-feedback{
+  background-color: #0094FF;
+}
+
+.container-feedback{
+	width: 1024px;
+  height: 938px;
+	margin: 0 auto;
+}
+
+.feedback{
+	font-family: "Baloo Chettan 2", cursive;
+	color: #FFF;
+}
+
+.feedback-title{
+	text-align: center;
+
+	padding-top: 30px;
+
+	padding-bottom: 59px;
+}
+
+.feedback-title h3{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	text-transform: capitalize;
+}
+
+.feedback-image{
+	background-image: url(assets/jpg/feedback-back.jpg);
+	height: 694px;
+	
+}
+	
+.feedback-image-container{
+	height: 100%;
+  width: 100%;
+	background-color: rgba(0, 0, 0, .20);
+}

@@ -1,0 +1,174 @@
+
+/*footer*/
+
+.section-footer{
+  background-color: #fff;
+}
+
+.container-footer{
+	width: 1024px;
+  height: 153px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin: 26px 19px 24px 25px;
+	display: flex;
+}
+
+.footer-left{
+	margin-right: 152px;
+}
+
+.footer-left-location{
+	display: flex;
+}
+
+.footer-left-location img:hover{
+	color: #0DF9F9;
+}
+
+.footer-left-location-text{
+	margin-left: 11px;
+	margin-top: 1px;
+}
+
+.footer-left-location-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-location-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-left-email{
+	display: flex;
+
+	margin-top: 9px;
+}
+
+.footer-left-email-text{
+	margin-left: 11px;
+	margin-top: 1px;
+}
+
+.footer-left-email-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-email-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-left-phone{
+	display: flex;
+
+	margin-top: 9px;
+}
+
+.footer-left-phone-text{
+	margin-left: 11px;
+	margin-top: 2px;
+}
+
+.footer-left-phone-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-phone-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-center-social{
+	padding-top: 1px;
+	display: flex;
+	gap: 14px;
+}
+
+.footer-center-payment{
+	margin-top: 37px;
+	margin-left: 22px;
+}
+
+.icon-instagram{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-instagram:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-pinterest{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-pinterest:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-facebook{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-facebook:hover{ 
+	fill: #0DF9F9;
+}
+
+.footer-right{
+	
+
+	margin-left: 228px;
+}
+
+.footer-right a{
+	font-family: "Baloo Chettan 2";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #0094FF;
+}
+
+.footer-right-figma{
+	margin-top: 5px;
+}
+
+.footer-right-author{
+	font-family: "Baloo Chettan 2";
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 27px;
+	color: #0094FF;
+	margin-top: 5px;
+	letter-spacing: 0.3px;
+	
+}
+
+.footer-right-github:hover, .footer-right-figma:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}

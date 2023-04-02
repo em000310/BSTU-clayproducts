@@ -322,18 +322,18 @@ h1, h2, h3, h4, h5, h6, a{
 	font-family: "Baloo Chettan 2", cursive;
 	color: #0094FF;
 
-	margin-left: 50px;
-	margin-right: 49px;
+	padding-left: 50px;
+	padding-right: 49px;
 }
 
-.price-title h3{
+ .price-title h3{
 	font-family: "Baloo Chettan 2", cursive;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 54px;
 	text-align: center;
-	margin-top: 46px;
+	padding-top: 46px;
 	letter-spacing: 0.3px;
 }
 
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6, a{
 
 .price-learn-more{
 	text-align: center;
-	margin-top: 157px;
+	padding-top: 157px;
 }
 
 .price-learn-more a{
@@ -396,3 +396,227 @@ h1, h2, h3, h4, h5, h6, a{
 	color: #fff;
 	background-color: #0DF9F9;
 }
+
+/*feedback*/
+
+.section-feedback{
+  background-color: #0094FF;
+}
+
+.container-feedback{
+	width: 1024px;
+  height: 938px;
+	margin: 0 auto;
+}
+
+.feedback{
+	font-family: "Baloo Chettan 2", cursive;
+	color: #FFF;
+}
+
+.feedback-title{
+	text-align: center;
+
+	padding-top: 30px;
+
+	padding-bottom: 59px;
+}
+
+.feedback-title h3{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	text-transform: capitalize;
+}
+
+.feedback-image{
+	background-image: url(assets/jpg/feedback-back.jpg);
+	height: 694px;
+	
+}
+	
+.feedback-image-container{
+	height: 100%;
+  width: 100%;
+	background-color: rgba(0, 0, 0, .20);
+}
+
+/*footer*/
+
+.section-footer{
+  background-color: #fff;
+}
+
+.container-footer{
+	width: 1024px;
+  height: 153px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin: 26px 19px 24px 25px;
+	display: flex;
+}
+
+.footer-left{
+	margin-right: 152px;
+}
+
+.footer-left-location{
+	display: flex;
+}
+
+.footer-left-location img:hover{
+	color: #0DF9F9;
+}
+
+.footer-left-location-text{
+	margin-left: 11px;
+	margin-top: 1px;
+}
+
+.footer-left-location-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-location-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-left-email{
+	display: flex;
+
+	margin-top: 9px;
+}
+
+.footer-left-email-text{
+	margin-left: 11px;
+	margin-top: 1px;
+}
+
+.footer-left-email-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-email-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-left-phone{
+	display: flex;
+
+	margin-top: 9px;
+}
+
+.footer-left-phone-text{
+	margin-left: 11px;
+	margin-top: 2px;
+}
+
+.footer-left-phone-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+.footer-left-phone-text a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #0094FF;
+}
+
+.footer-center-social{
+	padding-top: 1px;
+	display: flex;
+	gap: 14px;
+}
+
+.footer-center-payment{
+	margin-top: 37px;
+	margin-left: 22px;
+}
+
+.icon-instagram{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-instagram:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-pinterest{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-pinterest:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-facebook{
+  width: 31px;
+  height: 31px;
+	fill: #0094FF;
+}
+
+.icon-facebook:hover{ 
+	fill: #0DF9F9;
+}
+
+.footer-right{
+	
+
+	margin-left: 228px;
+}
+
+.footer-right a{
+	font-family: "Baloo Chettan 2";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #0094FF;
+}
+
+.footer-right-figma{
+	margin-top: 5px;
+}
+
+.footer-right-author{
+	font-family: "Baloo Chettan 2";
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 27px;
+	color: #0094FF;
+	margin-top: 5px;
+	letter-spacing: 0.3px;
+	
+}
+
+.footer-right-github:hover, .footer-right-figma:hover{
+	text-decoration: underline;
+	text-decoration-color: #0094FF;
+}
+
+
+
+
+

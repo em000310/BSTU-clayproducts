@@ -21,7 +21,7 @@
 
 	padding-top: 30px;
 
-	padding-bottom: 59px;
+	padding-bottom: 44px;
 }
 
 .feedback-title h3{
@@ -42,4 +42,111 @@
 	height: 100%;
   width: 100%;
 	background-color: rgba(0, 0, 0, .20);
+}
+
+.block-form{
+	padding-top: 194px;
+	padding-left: 188px;
+}
+
+.block-form-input-name, .block-form-input-email, .block-form-input-phone{
+	display: flex;
+}
+
+.form-label-name{
+	font-family: 'Baloo Chettan 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 38px;
+	text-transform: capitalize;
+	color: #0094FF;
+	padding: 18px 85px 19px 85px;
+	background-color: #fff;
+	border-radius: 20px;
+
+	margin-right: 40px;
+	margin-bottom: 18px;
+}
+
+.form-input-name{
+	border: none;
+	padding: 0 10px 0;
+	border-radius: 20px;
+	height: 75px;
+	width: 386px;
+	outline-color: #0094FF;
+}
+
+.form-label-email{
+	font-family: 'Baloo Chettan 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 38px;
+	text-transform: capitalize;
+	color: #0094FF;
+	padding: 18px 88px 19px 87px;
+	background-color: #fff;
+	border-radius: 20px;
+	
+	margin-right: 40px;
+	margin-bottom: 18px;
+}
+
+.form-input-email{
+	border: none;
+	border-radius: 20px;
+	height: 75px;
+	width: 386px;
+	outline-color: #0094FF;
+	padding: 0 10px 0;
+}
+
+
+.form-label-phone{
+	font-family: 'Baloo Chettan 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 38px;
+	text-transform: capitalize;
+	color: #0094FF;
+	padding: 20px 48px 17px 47px;
+	background-color: #fff;
+	border-radius: 20px;
+
+	margin-right: 40px;
+}
+
+.form-input-phone{
+	border: none;
+	border-radius: 20px;
+	height: 75px;
+	width: 386px;
+	outline-color: #0094FF;
+	padding: 0 10px 0;
+}
+
+.form-button{
+	font-family: 'Baloo Chettan 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 38px;
+	text-transform: capitalize;
+	border: none;
+	border-radius: 20px;
+	color: #0094FF;
+	background-color: #fff;
+	cursor: pointer;
+	padding: 3px 42px 6px 41px;
+
+	margin-top: 78px;
+	margin-left: 206px;
+}
+
+.form-button:hover{
+	color: #fff;
+	background-color: #0DF9F9;
 }

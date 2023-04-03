@@ -56,6 +56,11 @@
 	line-height: 17px;
 }
 
+.availability-cards img:hover{
+	box-shadow: 0 0 30px 15px rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+
 .availability-cards-top, .availability-cards-bottom{
 	display: flex;
 	gap: 45px;

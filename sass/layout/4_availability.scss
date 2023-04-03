@@ -28,8 +28,24 @@
 
 .avability-main{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	gap: 70px;
+
+	margin-top: 62px;
+}
+
+.availability-main-navidation-right, .availability-main-navidation-left{
+	margin-top: 4px;
+}
+
+.icon-arrow-left, .icon-arrow-right{
+  width: 57px;
+	fill: #0094FF;
+}
+
+.icon-arrow-left:hover, .icon-arrow-right:hover{ 
+	fill: #0DF9F9;
 }
 
 .availability-cards{
@@ -38,19 +54,28 @@
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 17px;
-
-	margin-top: 70px;
 }
 
 .availability-cards-top, .availability-cards-bottom{
 	display: flex;
-	justify-content: space-between;
+	gap: 45px;
 }
 
 .availability-card{
 	width: 198px;
 	height: 251px;
-	border: #0DF9F9 solid 1px;
+}
+
+.availability-card-title{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 17px;
+	color: #0094FF;
+
+	margin-top: 4px;
 }
 
 .availability-cards-bottom{

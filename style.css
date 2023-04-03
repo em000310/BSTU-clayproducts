@@ -188,8 +188,30 @@ h1, h2, h3, h4, h5, h6, a{
 	display: flex;
 	justify-content: space-between;
 
-	padding: 0 111px;
+	padding: 0  ;
+	padding-left: 111px;
+	padding-right: 111px;
 	margin-top: 34px;
+}
+
+.icon-delivery{
+  width: 230px;
+  height: 166px;
+	fill: #fff;
+}
+
+.icon-delivery:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-courier{
+  width: 166px;
+  height: 166px;
+	fill: #fff;
+}
+
+.icon-courier:hover{ 
+	fill: #0DF9F9;
 }
 
 .possibilities-blocks-left, .possibilities-blocks-right{
@@ -235,8 +257,24 @@ h1, h2, h3, h4, h5, h6, a{
 
 .avability-main{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	gap: 70px;
+
+	margin-top: 62px;
+}
+
+.availability-main-navidation-right, .availability-main-navidation-left{
+	margin-top: 4px;
+}
+
+.icon-arrow-left, .icon-arrow-right{
+  width: 57px;
+	fill: #0094FF;
+}
+
+.icon-arrow-left:hover, .icon-arrow-right:hover{ 
+	fill: #0DF9F9;
 }
 
 .availability-cards{
@@ -245,19 +283,28 @@ h1, h2, h3, h4, h5, h6, a{
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 17px;
-
-	margin-top: 70px;
 }
 
 .availability-cards-top, .availability-cards-bottom{
 	display: flex;
-	justify-content: space-between;
+	gap: 45px;
 }
 
 .availability-card{
 	width: 198px;
 	height: 251px;
-	border: #0DF9F9 solid 1px;
+}
+
+.availability-card-title{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 17px;
+	color: #0094FF;
+
+	margin-top: 4px;
 }
 
 .availability-cards-bottom{
@@ -341,7 +388,7 @@ h1, h2, h3, h4, h5, h6, a{
 	display: flex;
 	gap: 39px;
 
-	margin-top: 85px;
+	margin-top: 84px;
 }
 
 .price-main-card{
@@ -357,7 +404,7 @@ h1, h2, h3, h4, h5, h6, a{
 	margin-bottom: 54px;
 }
 
-.price-main-card a{
+.price-main-card-hre{
 	font-style: normal;
 	font-weight: 600;
 	font-size: 34px;
@@ -366,8 +413,34 @@ h1, h2, h3, h4, h5, h6, a{
 	text-transform: lowercase;
 	background-color: #0094FF;
 	color: #fff;
-	padding: 31px 34px 31px;
+	padding: 30px 35px 29px;
 	border-radius: 20px;
+}
+
+.price-main-card-href2{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: #0094FF;
+	color: #fff;
+	padding: 30px 38px 29px;
+	border-radius: 20px;
+}
+
+.price-main-card-href3{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: #0094FF;
+	color: #fff;
+	border-radius: 20px;
+	padding: 30px 42px 29px;
 }
 
 .price-main-card a:hover {
@@ -455,7 +528,7 @@ h1, h2, h3, h4, h5, h6, a{
 }
 
 .footer{
-	margin: 26px 19px 24px 25px;
+	margin: 22px 19px 24px 24px;
 	display: flex;
 }
 
@@ -467,13 +540,9 @@ h1, h2, h3, h4, h5, h6, a{
 	display: flex;
 }
 
-.footer-left-location img:hover{
-	color: #0DF9F9;
-}
-
 .footer-left-location-text{
-	margin-left: 11px;
-	margin-top: 1px;
+	margin-left: 12px;
+	margin-top: 2px;
 }
 
 .footer-left-location-text:hover{
@@ -493,7 +562,7 @@ h1, h2, h3, h4, h5, h6, a{
 .footer-left-email{
 	display: flex;
 
-	margin-top: 9px;
+	margin-top: 13px;
 }
 
 .footer-left-email-text{
@@ -518,7 +587,7 @@ h1, h2, h3, h4, h5, h6, a{
 .footer-left-phone{
 	display: flex;
 
-	margin-top: 9px;
+	margin-top: 13px;
 }
 
 .footer-left-phone-text{
@@ -541,7 +610,7 @@ h1, h2, h3, h4, h5, h6, a{
 }
 
 .footer-center-social{
-	padding-top: 1px;
+	padding-top: 6px;
 	display: flex;
 	gap: 14px;
 }
@@ -582,9 +651,8 @@ h1, h2, h3, h4, h5, h6, a{
 }
 
 .footer-right{
-	
-
 	margin-left: 228px;
+	margin-top: 5px;
 }
 
 .footer-right a{
@@ -606,9 +674,9 @@ h1, h2, h3, h4, h5, h6, a{
 	font-size: 24px;
 	line-height: 27px;
 	color: #0094FF;
-	margin-top: 5px;
 	letter-spacing: 0.3px;
 	
+	margin-top: 5px;
 }
 
 .footer-right-github:hover, .footer-right-figma:hover{

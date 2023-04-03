@@ -12,7 +12,7 @@
 }
 
 .footer{
-	margin: 26px 19px 24px 25px;
+	margin: 22px 19px 24px 24px;
 	display: flex;
 }
 
@@ -24,13 +24,9 @@
 	display: flex;
 }
 
-.footer-left-location img:hover{
-	color: #0DF9F9;
-}
-
 .footer-left-location-text{
-	margin-left: 11px;
-	margin-top: 1px;
+	margin-left: 12px;
+	margin-top: 2px;
 }
 
 .footer-left-location-text:hover{
@@ -50,7 +46,7 @@
 .footer-left-email{
 	display: flex;
 
-	margin-top: 9px;
+	margin-top: 13px;
 }
 
 .footer-left-email-text{
@@ -75,7 +71,7 @@
 .footer-left-phone{
 	display: flex;
 
-	margin-top: 9px;
+	margin-top: 13px;
 }
 
 .footer-left-phone-text{
@@ -98,7 +94,7 @@
 }
 
 .footer-center-social{
-	padding-top: 1px;
+	padding-top: 6px;
 	display: flex;
 	gap: 14px;
 }
@@ -139,9 +135,8 @@
 }
 
 .footer-right{
-	
-
 	margin-left: 228px;
+	margin-top: 5px;
 }
 
 .footer-right a{
@@ -163,9 +158,9 @@
 	font-size: 24px;
 	line-height: 27px;
 	color: #0094FF;
-	margin-top: 5px;
 	letter-spacing: 0.3px;
 	
+	margin-top: 5px;
 }
 
 .footer-right-github:hover, .footer-right-figma:hover{

@@ -32,8 +32,30 @@
 	display: flex;
 	justify-content: space-between;
 
-	padding: 0 111px;
+	padding: 0  ;
+	padding-left: 111px;
+	padding-right: 111px;
 	margin-top: 34px;
+}
+
+.icon-delivery{
+  width: 230px;
+  height: 166px;
+	fill: #fff;
+}
+
+.icon-delivery:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-courier{
+  width: 166px;
+  height: 166px;
+	fill: #fff;
+}
+
+.icon-courier:hover{ 
+	fill: #0DF9F9;
 }
 
 .possibilities-blocks-left, .possibilities-blocks-right{

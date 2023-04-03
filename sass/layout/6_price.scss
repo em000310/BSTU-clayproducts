@@ -34,7 +34,7 @@
 	display: flex;
 	gap: 39px;
 
-	margin-top: 85px;
+	margin-top: 84px;
 }
 
 .price-main-card{
@@ -50,7 +50,7 @@
 	margin-bottom: 54px;
 }
 
-.price-main-card a{
+.price-main-card-hre{
 	font-style: normal;
 	font-weight: 600;
 	font-size: 34px;
@@ -59,8 +59,34 @@
 	text-transform: lowercase;
 	background-color: #0094FF;
 	color: #fff;
-	padding: 31px 34px 31px;
+	padding: 30px 35px 29px;
 	border-radius: 20px;
+}
+
+.price-main-card-href2{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: #0094FF;
+	color: #fff;
+	padding: 30px 38px 29px;
+	border-radius: 20px;
+}
+
+.price-main-card-href3{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 49px;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: #0094FF;
+	color: #fff;
+	border-radius: 20px;
+	padding: 30px 42px 29px;
 }
 
 .price-main-card a:hover {

@@ -42,6 +42,8 @@
   width: 230px;
   height: 166px;
 	fill: #fff;
+
+	transition: fill 0.25 linear;
 }
 
 .icon-delivery:hover{ 
@@ -52,6 +54,8 @@
   width: 166px;
   height: 166px;
 	fill: #fff;
+
+	transition: fill 0.25 linear;
 }
 
 .icon-courier:hover{ 

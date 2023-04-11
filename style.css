@@ -39,15 +39,18 @@ h1, h2, h3, h4, h5, h6, a{
   gap: 24px;
 }
 
-.nav a {
-  text-decoration: none;
+.nav li{
+	list-style-type: none;
+}
+
+.menu__item {
   color: #fff;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-
+	
 	transition: color 0.25 linear;
 }
 
@@ -273,7 +276,7 @@ h1, h2, h3, h4, h5, h6, a{
 
 	margin-top: 62px;
 }
-
+ 
 .availability-main-navidation-right, .availability-main-navidation-left{
 	margin-top: 4px;
 }
@@ -287,7 +290,7 @@ h1, h2, h3, h4, h5, h6, a{
 	fill: #0DF9F9;
 }
 
-.availability-cards{
+.availability-cards, .availability-card-1{
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
@@ -956,7 +959,9 @@ h1, h2, h3, h4, h5, h6, a{
 		align-items: center;
 		flex-wrap: wrap;
 		flex-direction: column;
+		display: block;
 	}
+
 	.availability-cards{
 		font-family: 'Inter';
 		font-style: normal;
@@ -967,6 +972,10 @@ h1, h2, h3, h4, h5, h6, a{
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.availability-card-1{
+		display: none;
 	}
 
 	.availability-cards-bottom{
@@ -1255,7 +1264,7 @@ h1, h2, h3, h4, h5, h6, a{
 	}
 	.feedback-image{
 		width: 320px;
-height: 363px;
+		height: 363px;
 	}
 	.block-form{
 		padding-left: 14px;
@@ -1340,6 +1349,7 @@ nav .nav {
   display: flex;
   gap: 20px;
 }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1407,6 +1417,7 @@ nav .nav li a {
 .menu__item{
   font-weight: lighter;
 }
+
 }
 
 

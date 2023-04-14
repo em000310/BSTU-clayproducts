@@ -12,6 +12,18 @@ h1, h2, h3, h4, h5, h6, a{
 	text-decoration: none;
 }
 
+.menu-btn{
+	display: none;
+}
+
+#menu-toggle,[for=menu-toggle] {
+	display: none;
+}
+
+nav li{
+list-style-type:none;
+}
+
 /*header*/
 
 .header-back {
@@ -39,18 +51,15 @@ h1, h2, h3, h4, h5, h6, a{
   gap: 24px;
 }
 
-.nav li{
-	list-style-type: none;
-}
-
-.menu__item {
+.nav a {
+  text-decoration: none;
   color: #fff;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-	
+
 	transition: color 0.25 linear;
 }
 
@@ -245,19 +254,53 @@ h1, h2, h3, h4, h5, h6, a{
 
 .section-availability {
   background-color: #fff;
+	height: 900px;
 }
 
 .container-availability {
-	width: 1024px;
-  height: 780px;
-	margin: 0 auto;
+	width: 760px;
+  height: 640px;
+	margin: 20px auto;
 }
-
 .availability{
 	color: #0094FF;
 
 	padding-top: 18px;	
 }
+
+.blueBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 60px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	}
+	
+	.staticButton {
+	max-width: 237px;
+	max-height: 112px;
+	min-height: 111px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	padding: 10px 20px;
+	gap: 10px;
+	background: #0094FF;
+	border-radius: 20px;
+	}
+	
+	.staticButton p {
+	font-family: 'Baloo Chettan 2';
+	font-style: bold;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 27px;
+	text-align: center;
+	color: #fff;
+	}
 
 .availability-title h3{
 	font-family: "Baloo Chettan 2", cursive;
@@ -266,6 +309,7 @@ h1, h2, h3, h4, h5, h6, a{
 	font-size: 37px;
 	line-height: 52px;
 	text-align: center;
+	color: #0094FF;
 }
 
 .avability-main{
@@ -276,7 +320,7 @@ h1, h2, h3, h4, h5, h6, a{
 
 	margin-top: 62px;
 }
- 
+
 .availability-main-navidation-right, .availability-main-navidation-left{
 	margin-top: 4px;
 }
@@ -290,7 +334,7 @@ h1, h2, h3, h4, h5, h6, a{
 	fill: #0DF9F9;
 }
 
-.availability-cards, .availability-card-1{
+.availability-cards{
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
@@ -362,7 +406,7 @@ h1, h2, h3, h4, h5, h6, a{
 }
 
 .video-image{
-	background-image: url(assets/jpg/video.jpg);
+	
 	height: 522px;
 	
 }
@@ -832,10 +876,12 @@ h1, h2, h3, h4, h5, h6, a{
 
 @media (max-width: 768px){
 
+
 	/*header*/
 	.header{
 		margin: 0 13px;
 		height: 730px;
+		width: 768px;
 	}
 	
 	.header-back{
@@ -844,7 +890,7 @@ h1, h2, h3, h4, h5, h6, a{
 	}
 
 	*{
-		box-sizing:content-box;
+		box-sizing:border-box;
 	}
 
 	.container-header {
@@ -894,6 +940,7 @@ h1, h2, h3, h4, h5, h6, a{
 	/*.about-us*/
 	.container-abous-us{
 		height: 696px;
+		width: 768px;
 	}
 
 	.about-us-left img{
@@ -909,6 +956,7 @@ h1, h2, h3, h4, h5, h6, a{
 	.about-us-right-list{
 		padding-left: 35px;
 		width: 387px;
+		padding-top: 20px;
 	}
 
 	.about-us-right-title h3{
@@ -918,6 +966,7 @@ h1, h2, h3, h4, h5, h6, a{
 	/*possibility*/
 	.container-section-possibilities{
 		height: 432px;
+		width: 768px;
 	}
 
 	.possibilities-blocks{
@@ -933,9 +982,11 @@ h1, h2, h3, h4, h5, h6, a{
 
 	.possibilities{
 		padding-top: 40px;
+		width: 768px;
 	}
 
   /*availability*/
+
 	.container-availability{
 		width: 768px;
 
@@ -944,8 +995,52 @@ h1, h2, h3, h4, h5, h6, a{
 		display: none;
 	}
 	.availability{
-		width: 768px;
+		width: 600px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-content: stretch;
+		padding-left: 90px;
 	}
+
+	.blueBlock {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 20px;
+		padding-bottom: 20px;
+		margin-top: 40px;
+		}
+
+		.staticButton {
+			max-width: 180px;
+			max-height: 80px;
+			min-height: 80px;
+			display: flex;
+			flex-direction: column;
+			align-items:center;
+			justify-content: center;
+			padding: 2px 10px;
+			gap: 5px;
+			background: #0094FF;
+			border-radius: 20px;
+			flex-direction: row;
+			align-content: space-around;
+			justify-content: center;
+			align-items: center;
+			margin-left: 40px;
+			}
+			
+			.staticButton p {
+			font-family: 'Baloo Chettan 2';
+			font-style: bold;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 27px;
+			text-align: center;
+			color: #fff;
+			}
 
 	.container-availability{
 		height: 712px;
@@ -959,7 +1054,7 @@ h1, h2, h3, h4, h5, h6, a{
 		align-items: center;
 		flex-wrap: wrap;
 		flex-direction: column;
-		display: block;
+		
 	}
 
 	.availability-cards{
@@ -974,9 +1069,7 @@ h1, h2, h3, h4, h5, h6, a{
 		justify-content: center;
 	}
 
-	.availability-card-1{
-		display: none;
-	}
+
 
 	.availability-cards-bottom{
 		margin-top: 24px;
@@ -999,6 +1092,7 @@ h1, h2, h3, h4, h5, h6, a{
 	}
 	.section-video{
 		height: 741px;
+		width: 768px;
 	}
 	.video-title h3{
 		padding-top: 25px;
@@ -1055,6 +1149,7 @@ h1, h2, h3, h4, h5, h6, a{
 	.block-form{
 		padding-left: 67px;
 		padding-top: 133px;
+		width: 768px;
 	}
 
 	.form-label-name,.form-label-email,.form-label-phone{
@@ -1079,6 +1174,10 @@ h1, h2, h3, h4, h5, h6, a{
 		height: 549px;
 	}
 
+	.feedback{
+		width: 768px;
+	}
+
 	.container-footer{
 		width: 768px;
 	}
@@ -1099,6 +1198,10 @@ h1, h2, h3, h4, h5, h6, a{
 		height: 690px;
 	}
 
+	.header-logo{
+   margin-left: 10px;
+}
+
 
 	.header-main-title h1{
 		font-size: 47px;
@@ -1108,6 +1211,8 @@ h1, h2, h3, h4, h5, h6, a{
 	}
   .header{
 		height: 690px;
+		width: 320px;
+		margin: 0;
 	}
 		.header-main-info, .header-main-button{
 			margin-left: 13px;
@@ -1118,7 +1223,8 @@ h1, h2, h3, h4, h5, h6, a{
 		flex-direction: column;
 		flex-wrap: nowrap;
 		margin:0;
-		width: 320px;
+		width: 300px;
+
 	}
 	.header-main-info p{
 		width: 271px;
@@ -1138,16 +1244,24 @@ h1, h2, h3, h4, h5, h6, a{
 	width: 293px;
 	height: 387px;
 	margin: 0px;
+	margin-left: 15px;
 	}
 
+	.container-header{
+		width: 320px;
+	}
 
-	
-
+   /*about us*/
+	 
 	.section-about-us{
 		width: 320px;
 		height: 791px;
 	}
-	/*about us*/
+
+	.container-abous-us{
+		width: 320px;
+	}
+	
   .about-us-left img{
 		width: 319px;
 		height: 280px;
@@ -1158,6 +1272,11 @@ h1, h2, h3, h4, h5, h6, a{
 		padding: 0;
 		flex-direction: column-reverse
 	}
+
+	.about-us-right{
+		width: 320px;
+	}
+
 	.about-us-right-title h3{
 		width: 320px;
     margin:0;
@@ -1167,18 +1286,25 @@ h1, h2, h3, h4, h5, h6, a{
     text-align: center;
 	}
    .about-us-right-list{
-		width: 320px;
+		width: 315px;
 		padding-left: 5px;
-		font-size: 18px;
+		font-size: 17px;
 		padding-top: 32px;
 		
 	 }
 	 .about-us-right-list li{
 		margin-bottom: 15px;
+		width: 320px;
 	 }
+
+	 /*possibilities*/
 	.section-possibilities{
 		width: 320px;
 		height: 613px;
+	}
+
+	.container-section-possibilities{
+		width: 320px;
 	}
 	.possibilities-title h3{
 		width: 320px;
@@ -1194,39 +1320,63 @@ h1, h2, h3, h4, h5, h6, a{
 		margin-top: 20px;
 	}
 	
+	/*availability*/
+
 	.section-availability{
 		width: 320px;
-		height: 447px;
+		height: 700px;
 	}
 	.availability{
-		padding-top: 70px;
+		padding-top: 20px;
 		width: 320px;
+		margin: 0;
+		padding-left: 0;
 	}
 	.avability-main{
 		width: 320px;
 		
 	}
+
+	.availability-title h3{
+		width: 320px;
+	}
+
+	.blueBlock{
+		width: 270px;
+		flex-direction: column;
+		margin: 0;
+		margin: 10px;
+		padding: 0;
+	}
+
+	
 	.container-availability{
-		/*display: none;*/
+		width: 320px;
 	}
 	.hide2, .availability-card-title2{
 		display: none;
 	}
 	
-  
-	.section-video, .container-video{
-		width: 320px;
+  /*video*/
+	 
+	.section-video{
 		height: 758px;
-	}
-   .video-title h3{
-		padding: 19px;
-		width: 260px;
-	 }
-	 .video-image-container, .video-image{
 		width: 320px;
-	 }
+	}
 
+	 .video-image-container{
+		width: 320px;
+	}
+	.video-image, .container-video{
+		width: 320px;
+	}
 
+	.video-title h3{
+		padding-top: 19px;
+		width: 260px;
+	}
+
+ /*price*/
 	.section-price{
 		width: 320px;
 		height: 1168px;
@@ -1235,6 +1385,16 @@ h1, h2, h3, h4, h5, h6, a{
    padding-top: 15px;
 	 width: 320px;
 	}
+
+	.price{
+		width: 320px;
+	}
+
+	.price-title {
+		width: 320px;
+	 }
+
+
 	.price-main{
 		width: 320px;
 		flex-direction: column;
@@ -1253,6 +1413,17 @@ h1, h2, h3, h4, h5, h6, a{
 		padding: 22px 30px;
 		
 	}
+
+	.container-price{
+		width: 320px;
+	}
+
+	/*feedback*/
+
+	.feedback{
+		width: 320px;
+	}
+
 	.section-feedback{
 		width: 320px;
 		height: 578px;
@@ -1264,7 +1435,7 @@ h1, h2, h3, h4, h5, h6, a{
 	}
 	.feedback-image{
 		width: 320px;
-		height: 363px;
+    height: 363px;
 	}
 	.block-form{
 		padding-left: 14px;
@@ -1282,6 +1453,7 @@ h1, h2, h3, h4, h5, h6, a{
   .form-input-email, .form-input-name, .form-input-phone{
 		width: 150px;
 		height: 49px;
+		padding: 0;
 	}
 	.form-button{
 		margin:13px 78px ;
@@ -1289,7 +1461,7 @@ h1, h2, h3, h4, h5, h6, a{
 	}
 
 
-
+  /*footer*/
 	.section-footer{
 		width: 320px;
 		height: 300px;
@@ -1300,7 +1472,7 @@ h1, h2, h3, h4, h5, h6, a{
 		flex-wrap: wrap;
 		align-content: stretch;
     justify-content: space-around;
-    margin: 20px 10px;
+    margin: 0 0 0 10px;
 		gap: 10px;
 	}
 	.footer-right{
@@ -1311,12 +1483,30 @@ h1, h2, h3, h4, h5, h6, a{
 
 	}
 
+	.container-footer{
+		width: 320px;
+	}
+
 }
+
+.availability{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	}
+	.availability img{
+	width: 240px;
+	height: auto;
+	}
+
+
 
 /*Burger*/
 
 @media screen and (max-width: 767px) {
-  .header .container .menu-btn {
+  .header-back .container-header .menu-btn {
    display: block;
   }
 .menu-btn > span,
@@ -1326,9 +1516,11 @@ h1, h2, h3, h4, h5, h6, a{
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #FAC90F;
+  background-color: #fff;
   transition-duration: 0.25s;
 }
+
+
 
 .menu-btn > span::before {
   content: "";
@@ -1350,6 +1542,7 @@ nav .nav {
   gap: 20px;
 }
 
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1360,10 +1553,10 @@ nav .nav {
     top: 0px;
     right: -270px;
     width: 270px;
-    height: 600px;
+    height: 5000px;
     margin: 0;
     padding: 80px 40px;
-    background-color: #2A2E29;
+    background-color: #1FA5D9;
     transition-duration: 1s;
   }
 
@@ -1372,6 +1565,13 @@ nav .nav li {
 }
 nav .nav li a {
   text-decoration: none;
+}
+
+.nav li{
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .menu-btn {
@@ -1387,7 +1587,7 @@ nav .nav li a {
 }
 .menu{
   padding:10px;
-  margin: 0px;
+  margin-right: 25px;
 }
 #menu-toggle {
   opacity: 0;
@@ -1411,10 +1611,10 @@ nav .nav li a {
   visibility: visible;
   right: 0px;
 }
-.menu__item:hover {
-  color: #FAC90F;
+.nav a:hover {
+  color: #0DF9F9;
 }
-.menu__item{
+.nav a{
   font-weight: lighter;
 }
 

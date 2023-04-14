@@ -16,12 +16,14 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">	
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Claycrafts</title>
 
 </head>
 <body>
 	
-<header class="header-back">
+<header class="header-back" id="header-back">
 
 	<div class="container-header">
 
@@ -33,16 +35,20 @@
 					<a href="index.html"><img src="assets/svg/logo.svg" alt=""></a>
 				</div>
 
+				<span class="header-logo" onclick="slowScroll('#header-back')"></span>
+
 				<nav class="menu">    
-					<!-- <input id="menu-toggle" type="checkbox"> -->
-					<!-- <label class="menu-btn" for="menu-toggle"> -->
+					<input id="menu-toggle" type="checkbox">
+					<label class="menu-btn" for="menu-toggle">
+					<span></span>
+				 </label>   
 	
-				<ul class="nav">
-					<li><a class="menu__item" href="#about_us">About us</a></li>
-					<li><a class="menu__item" href="#possibilities">Possibilities</a></li>
-					<li><a class="menu__item" href="#availability">Availabitity</a></li>
-					<li><a class="menu__item" href="#contacts">Contacts</a></li>
-				</ul>
+				<nav class="nav">
+					<li><a href="#about_us">About us</a></li>
+					<li><a href="#possibilities">Possibilities</a></li>
+					<li><a href="#availability">Availabitity</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</nav>
 	
 			</div>
 	
@@ -170,16 +176,31 @@
 </div>
 
 <div class="section-availability" id="availability">
-
+	
 	<div class="container-availability">
 
+		<div class="availability-title">
+			<h3>Availability</h3>
+		</div> 
+		
+		<div class="blueBlock">
+			<div class="staticButton"><p>stands for photos</p></div>
+			<div class="staticButton"><p>stands for jewerly</p></div>
+			<div class="staticButton"><p>stands for candles</p></div>
+		</div>
+
 		<div class="availability">
+			<img src="assets/jpg/card1.jpg" alt="1">
+			<img class="hide2" src="assets/jpg/card2.jpg" alt="2">
+			<img class="hide2" src="assets/jpg/card3.jpg" alt="3">
+			<img class="hide2" src="assets/jpg/card4.jpg" alt="4">
+			<img class="hide" src="assets/jpg/card5.jpg" alt="5">
+			<img class="hide" src="assets/jpg/card6.jpg" alt="6">  
 
-			<div class="availability-title">
-				<h3>Availability</h3>
-			</div>
 
-			<div class="avability-main">
+		
+
+			<!--<div class="avability-main">
 
 				<div class="availability-main-navidation-right">
 
@@ -211,15 +232,15 @@
 	
 						<div class="availability-card">
 							<a href="##">
-								<img src="assets/jpg/card2.jpg" alt="“Faces”">
-								<h3 class="availability-card-title">Stands for jewelry “Faces”</h3>
+								<img class="hide2" src="assets/jpg/card2.jpg" alt="“Faces”">
+								<h3 class="availability-card-title2">Stands for jewelry “Faces”</h3>
 							</a>
 						</div>
 	
-						<div class="availability-card-1">
+						<div class="availability-card">
 							<a href="##">
-								<img src="assets/jpg/card3.jpg" alt="“Frog”">
-								<h3 class="availability-card-title">Stands for jewelry “Frog”</h3>
+								<img class="hide" src="assets/jpg/card3.jpg" alt="“Frog”">
+								<h3 class="availability-card-title1">Stands for jewelry “Frog”</h3>
 							</a>
 						</div>
 	
@@ -229,27 +250,27 @@
 	
 						<div class="availability-card">
 							<a href="##">
-								<img src="assets/jpg/card4.jpg" alt="“Painted”">
-								<h3 class="availability-card-title">Stands for jewelry “Painted”</h3>
+								<img class="hide2" src="assets/jpg/card4.jpg" alt="“Painted”">
+								<h3 class="availability-card-title2">Stands for jewelry “Painted”</h3>
 							</a>
 						</div>
 	
 						<div class="availability-card">
 							<a href="##">
-								<img src="assets/jpg/card5.jpg" alt="“Hearts”">
-								<h3 class="availability-card-title">Stands for jewelry “Hearts”</h3>
+								<img class="hide2"src="assets/jpg/card5.jpg" alt="“Hearts”">
+								<h3 class="availability-card-title2">Stands for jewelry “Hearts”</h3>
 							</a>
 						</div>
 	
-						<div class="availability-card-1">
+						<div class="availability-card">
 							<a href="##">
-								<img src="assets/jpg/card6.jpg" alt="“что-то”">
-								<h3 class="availability-card-title">Stands for jewelry “Hearts...</h3>
+								<img class="hide" src="assets/jpg/card6.jpg" alt="“что-то”">
+								<h3 class="availability-card-title1">Stands for jewelry “Hearts...</h3>
 							</a>
 						</div>
 	
 					</div>
-	
+				
 				</div>
 					
 				<div class="availability-main-navidation-right">
@@ -267,7 +288,7 @@
 					</a>
 
 				</div> 
-
+			-->
 			</div>
 			
 			
@@ -292,10 +313,6 @@
 			<div class="video-image">
 				
 				<div class="video-image-container">
-
-					<!-- <a href="https://youtu.be/85-1NQO8Q6A" target="_blank">
-						<img src="assets/png/Play_hover.png" alt="Play_hover">
-					</a> -->
 
 					<iframe src="https://www.youtube.com/embed/0hEq-ovyXPg" class="video-yuotube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

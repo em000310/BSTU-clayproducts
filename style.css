@@ -878,8 +878,12 @@ list-style-type:none;
 
 
 	/*header*/
+
+	.header-logo, .header-main-title h1, .header-main-info{
+		margin-left: 5px;
+	}
 	.header{
-		margin: 0 13px;
+		margin: 0px;
 		height: 730px;
 		width: 768px;
 	}
@@ -889,9 +893,15 @@ list-style-type:none;
 		width: 768px;
 	}
 
-	*{
-		box-sizing:border-box;
+	.header-line{
+		width: 768px;
 	}
+
+	.header-main{
+		width: 768px;
+	}
+
+
 
 	.container-header {
 		width: 768px;
@@ -923,6 +933,7 @@ list-style-type:none;
 	
 	.header-main-button {
 		margin-top: 0;
+		margin-left: 10px;
 	}
 	
 	.header-main-btn {
@@ -1100,6 +1111,10 @@ list-style-type:none;
 		width: 768px;
 	}
 
+	.container-video{
+		height: 740px;
+	}
+
 	/*price*/
   .price{
 		width: 768px;
@@ -1136,7 +1151,8 @@ list-style-type:none;
 	}
 
 	.container-price{
-		height: 574px;;
+		height: 574px;
+		width: 768px;
 	}
 
 	/*feedback*/
@@ -1149,7 +1165,7 @@ list-style-type:none;
 	.block-form{
 		padding-left: 67px;
 		padding-top: 133px;
-		width: 768px;
+		width: 763px;
 	}
 
 	.form-label-name,.form-label-email,.form-label-phone{
@@ -1157,7 +1173,7 @@ list-style-type:none;
 	}
 
 	.form-input-name,.form-input-email,.form-input-phone{
-		width: 377px;
+		width: 360px;
 	}
 
 	.feedback-title {
@@ -1175,7 +1191,12 @@ list-style-type:none;
 	}
 
 	.feedback{
-		width: 768px;
+		width: 766px;
+	}
+
+	.footer{
+		margin-right: 0px;
+		width: 700px;
 	}
 
 	.container-footer{
@@ -1186,12 +1207,13 @@ list-style-type:none;
    margin-right: 40px;
 	}
 	.footer-right{
-		margin-left: 115px;
-		width: 200px;
+		margin-left: 80px;
+		width: 150px;
 	}
 }
 
 @media (max-width: 320px){
+
 
 	.header-back{
 		width: 320px;
@@ -1201,6 +1223,10 @@ list-style-type:none;
 	.header-logo{
    margin-left: 10px;
 }
+
+  .header-line{
+	width: 320px;
+ }
 
 
 	.header-main-title h1{
@@ -1213,6 +1239,7 @@ list-style-type:none;
 		height: 690px;
 		width: 320px;
 		margin: 0;
+
 	}
 		.header-main-info, .header-main-button{
 			margin-left: 13px;
@@ -1238,6 +1265,8 @@ list-style-type:none;
 	.header-main-btn{
 		padding:2px 4px ;
 		font-size: 18px;
+		margin-top: 10px; 
+		
 	}
 	.header-main-right img{
 
@@ -1245,6 +1274,12 @@ list-style-type:none;
 	height: 387px;
 	margin: 0px;
 	margin-left: 15px;
+	}
+
+	.header-main-right{
+		height: 30px;
+		width: 100px;
+		margin-top: 40px;
 	}
 
 	.container-header{
@@ -1294,7 +1329,7 @@ list-style-type:none;
 	 }
 	 .about-us-right-list li{
 		margin-bottom: 15px;
-		width: 320px;
+		width: 310px;
 	 }
 
 	 /*possibilities*/
@@ -1311,6 +1346,7 @@ list-style-type:none;
 	}
 	.possibilities{
 		margin-top: 35px;
+		width: 320px;
 	}
   .possibilities-blocks{
 		flex-direction: column;
@@ -1374,7 +1410,9 @@ list-style-type:none;
 	.video-title h3{
 		padding-top: 19px;
 		width: 260px;
+		margin-left: 25px;
 	}
+
 
  /*price*/
 	.section-price{
@@ -1388,6 +1426,7 @@ list-style-type:none;
 
 	.price{
 		width: 320px;
+		height: 1170px;
 	}
 
 	.price-title {
@@ -1415,6 +1454,7 @@ list-style-type:none;
 	}
 
 	.container-price{
+		height: 1170px;
 		width: 320px;
 	}
 
@@ -1440,6 +1480,7 @@ list-style-type:none;
 	.block-form{
 		padding-left: 14px;
     padding-top: 100px;
+		width: 320px;
 	}
   .form-label-name, .form-label-email{
 		padding:8px 20px ;
@@ -1456,8 +1497,13 @@ list-style-type:none;
 		padding: 0;
 	}
 	.form-button{
-		margin:13px 78px ;
+		margin:10px 55px ;
 
+	}
+
+	.container-feedback{
+		width: 320px;
+		height: 575px;
 	}
 
 
@@ -1467,7 +1513,7 @@ list-style-type:none;
 		height: 300px;
 	}
   .footer{
-		width: 320px;
+		width: 300px;
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-content: stretch;
@@ -1619,7 +1665,5 @@ nav .nav li a {
 }
 
 }
-
-
 
 

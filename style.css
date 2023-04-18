@@ -276,6 +276,11 @@ list-style-type:none;
 	gap: 60px;
 	padding-bottom: 20px;
 	margin-top: 40px;
+	justify-content: center;
+	}
+
+	.button_color{
+		color:#FFF;
 	}
 	
 	.staticButton {
@@ -292,7 +297,7 @@ list-style-type:none;
 	border-radius: 20px;
 	}
 	
-	.staticButton p {
+	.staticButton {
 	font-family: 'Baloo Chettan 2';
 	font-style: bold;
 	font-weight: 400;

@@ -1,0 +1,96 @@
+
+/*header*/
+
+.header-back {
+  background-color: #0094FF;
+}
+
+.container-header {
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+}
+.header{
+	margin: 0 24px;
+}
+
+.header-line {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+	transition: color 0.25 linear;
+}
+
+.nav a:hover {
+  color: #0DF9F9;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.header-main-left {
+  color: #fff;
+  font-family: "Baloo Chettan 2", cursive;
+  font-style: normal;
+}
+
+.header-main-title h1{
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 92px;
+  margin-top: 122px;
+}
+
+.header-main-info {
+  font-weight: 600;
+  font-size: 41.3px;
+  line-height: 58px;
+  margin-top: 27px;
+}
+
+.header-main-button {
+  margin-top: 78px;
+}
+
+.header-main-btn {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #0094FF;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 18px;
+  transition: color 0.5 linear;
+
+}
+
+.header-main-btn:hover {
+  background-color: #0DF9F9;
+  color: #fff;
+}
+
+.header-main-right img {
+  margin-left: 29px;
+}

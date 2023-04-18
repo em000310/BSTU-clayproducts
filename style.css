@@ -295,6 +295,7 @@ list-style-type:none;
 	gap: 10px;
 	background: #0094FF;
 	border-radius: 20px;
+	border: 0px;
 	}
 	
 	.staticButton {
@@ -305,6 +306,11 @@ list-style-type:none;
 	line-height: 27px;
 	text-align: center;
 	color: #fff;
+	}
+
+	.staticButton:hover{
+		cursor: pointer;
+		background: #0DF9F9;
 	}
 
 .availability-title h3{

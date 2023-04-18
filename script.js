@@ -7,7 +7,24 @@ const stands = {
 		'assets/jpg/photo5.jpg',
 		'assets/jpg/photo6.jpg'
   ],
- 
+  jewerly:  [
+    'assets/jpg/card1.jpg',
+		'assets/jpg/card2.jpg',
+		'assets/jpg/card3.jpg',
+		'assets/jpg/card4.jpg',
+		'assets/jpg/card5.jpg',
+		'assets/jpg/card6.jpg',
+    
+  ],
+  candles:  [
+    'assets/jpg/свечи6-1.jpg',
+    'assets/jpg/свечи2.jpg',
+    'assets/jpg/свечи3.jpg',
+		'assets/jpg/свечи4.jpg',
+		'assets/jpg/свечи5.jpg',
+		'assets/jpg/свечи1.jpg',
+  ],
+  
 }
 
 function changeImage (event) {

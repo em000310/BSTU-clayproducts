@@ -328,9 +328,14 @@ list-style-type:none;
 	justify-content: center;
 	align-items: center;
 	gap: 70px;
+	opacity: 0;
+	transition: all 2s;
 
 	margin-top: 62px;
 }
+.section-availability:hover .avability-main{
+	opacity: 1;
+	}
 
 .availability-main-navidation-right, .availability-main-navidation-left{
 	margin-top: 4px;

@@ -345,6 +345,18 @@ list-style-type:none;
 	fill: #0DF9F9;
 }
 
+.icon-arrow-left{
+	position: relative;
+	top: -450px;
+	left: -360px;
+}
+
+.icon-arrow-right{
+	position: relative;
+	top: -450px;
+	right: -360px;
+}
+
 .availability-cards{
 	font-family: 'Inter';
 	font-style: normal;
@@ -1105,6 +1117,18 @@ list-style-type:none;
 
 	}
 
+	.icon-arrow-left{
+		position: relative;
+		top: -450px;
+		left: -300px;
+	}
+	
+	.icon-arrow-right{
+		position: relative;
+		top: -680px;
+		right: -300px;
+	}
+
 	/*video*/
 	.video-image-container{
 		width: 768px;
@@ -1402,6 +1426,18 @@ list-style-type:none;
 	}
 	.hide2, .availability-card-title2{
 		display: none;
+	}
+
+	.icon-arrow-left{
+		position: relative;
+		top: -150px;
+		left: -90px;
+	}
+	
+	.icon-arrow-right{
+		position: relative;
+		top: -380px;
+		right: -90px;
 	}
 	
   /*video*/

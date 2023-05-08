@@ -1,3 +1,4 @@
+//320px
 @media (max-width: 320px){
 
 
@@ -177,6 +178,18 @@
 	}
 	.hide2, .availability-card-title2{
 		display: none;
+	}
+
+	.icon-arrow-left{
+		position: relative;
+		top: -150px;
+		left: -90px;
+	}
+	
+	.icon-arrow-right{
+		position: relative;
+		top: -380px;
+		right: -90px;
 	}
 	
   /*video*/

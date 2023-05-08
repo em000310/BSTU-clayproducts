@@ -1,0 +1,347 @@
+//320px
+@media (max-width: 320px){
+
+
+	.header-back{
+		width: 320px;
+		height: 690px;
+	}
+
+	.header-logo{
+   margin-left: 10px;
+}
+
+  .header-line{
+	width: 320px;
+ }
+
+
+	.header-main-title h1{
+		font-size: 47px;
+		margin-top: 0;
+		margin-left: 13px;
+
+	}
+  .header{
+		height: 690px;
+		width: 320px;
+		margin: 0;
+
+	}
+		.header-main-info, .header-main-button{
+			margin-left: 13px;
+			margin-top: 0;
+			width: 271px;
+	}
+  .header-main{
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin:0;
+		width: 300px;
+
+	}
+	.header-main-info p{
+		width: 271px;
+		font-size: 25px;
+    margin-right: 0;
+		line-height: 29px;
+	}
+	.header-main-button{
+		height: 0px;
+	}
+	.header-main-btn{
+		padding:2px 4px ;
+		font-size: 18px;
+		margin-top: 10px; 
+		
+	}
+	.header-main-right img{
+
+	width: 293px;
+	height: 387px;
+	margin: 0px;
+	margin-left: 15px;
+	}
+
+	.header-main-right{
+		height: 30px;
+		width: 100px;
+		margin-top: 40px;
+	}
+
+	.container-header{
+		width: 320px;
+	}
+
+   /*about us*/
+	 
+	.section-about-us{
+		width: 320px;
+		height: 791px;
+	}
+
+	.container-abous-us{
+		width: 320px;
+	}
+	
+  .about-us-left img{
+		width: 319px;
+		height: 280px;
+	}
+
+	.about-us{
+		margin: 0;
+		padding: 0;
+		flex-direction: column-reverse
+	}
+
+	.about-us-right{
+		width: 320px;
+	}
+
+	.about-us-right-title h3{
+		width: 320px;
+    margin:0;
+    padding: 0;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+	}
+   .about-us-right-list{
+		width: 315px;
+		padding-left: 5px;
+		font-size: 17px;
+		padding-top: 32px;
+		
+	 }
+	 .about-us-right-list li{
+		margin-bottom: 15px;
+		width: 310px;
+	 }
+
+	 /*possibilities*/
+	.section-possibilities{
+		width: 320px;
+		height: 613px;
+	}
+
+	.container-section-possibilities{
+		width: 320px;
+	}
+	.possibilities-title h3{
+		width: 320px;
+	}
+	.possibilities{
+		margin-top: 35px;
+		width: 320px;
+	}
+  .possibilities-blocks{
+		flex-direction: column;
+		align-items: center;
+		width: 320px;
+		gap: 36px;
+		margin-top: 20px;
+	}
+	
+	/*availability*/
+
+	.section-availability{
+		width: 320px;
+		height: 700px;
+	}
+	.availability{
+		padding-top: 20px;
+		width: 320px;
+		margin: 0;
+		padding-left: 0;
+	}
+	.avability-main{
+		width: 320px;
+		
+	}
+
+	.availability-title h3{
+		width: 320px;
+	}
+
+	.blueBlock{
+		width: 270px;
+		flex-direction: column;
+		margin: 0;
+		margin: 10px;
+		padding: 0;
+	}
+
+	
+	.container-availability{
+		width: 320px;
+	}
+	.hide2, .availability-card-title2{
+		display: none;
+	}
+
+	.icon-arrow-left{
+		position: relative;
+		top: -150px;
+		left: -90px;
+	}
+	
+	.icon-arrow-right{
+		position: relative;
+		top: -380px;
+		right: -90px;
+	}
+	
+  /*video*/
+	 
+	.section-video{
+		height: 758px;
+		width: 320px;
+	}
+
+	 .video-image-container{
+		width: 320px;
+	}
+	.video-image, .container-video{
+		width: 320px;
+	}
+
+	.video-title h3{
+		padding-top: 19px;
+		width: 260px;
+		margin-left: 25px;
+	}
+
+
+ /*price*/
+	.section-price{
+		width: 320px;
+		height: 1168px;
+	}
+	.price-title h3{
+   padding-top: 15px;
+	 width: 320px;
+	}
+
+	.price{
+		width: 320px;
+		height: 1170px;
+	}
+
+	.price-title {
+		width: 320px;
+	 }
+
+
+	.price-main{
+		width: 320px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+		gap: 0;
+
+	}
+  .price-learn-more{
+		padding: 0;
+		width: 320px;
+		margin-top: 40px;
+	}
+	.price-learn-more a{
+		padding: 22px 30px;
+		
+	}
+
+	.container-price{
+		height: 1170px;
+		width: 320px;
+	}
+
+	/*feedback*/
+
+	.feedback{
+		width: 320px;
+	}
+
+	.section-feedback{
+		width: 320px;
+		height: 578px;
+	}
+	.feedback-title h3{
+		width: 320px;
+		margin-bottom: 50px;
+
+	}
+	.feedback-image{
+		width: 320px;
+    height: 363px;
+	}
+	.block-form{
+		padding-left: 14px;
+    padding-top: 100px;
+		width: 320px;
+	}
+  .form-label-name, .form-label-email{
+		padding:8px 20px ;
+		margin-right: 3px;
+	}
+	.form-label-phone{
+		font-size: 26px;
+		padding:8px 7px ;
+		margin-right: 3px;
+	}
+  .form-input-email, .form-input-name, .form-input-phone{
+		width: 150px;
+		height: 49px;
+		padding: 0;
+	}
+	.form-button{
+		margin:10px 55px ;
+
+	}
+
+	.container-feedback{
+		width: 320px;
+		height: 575px;
+	}
+
+
+  /*footer*/
+	.section-footer{
+		width: 320px;
+		height: 300px;
+	}
+  .footer{
+		width: 300px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: stretch;
+    justify-content: space-around;
+    margin: 0 0 0 10px;
+		gap: 10px;
+	}
+	.footer-right{
+		margin-left: 0px;
+	}
+	.footer-center-payment{
+		margin-top: 5px;
+
+	}
+
+	.container-footer{
+		width: 320px;
+	}
+
+}
+
+.availability{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	}
+	.availability img{
+	width: 240px;
+	height: auto;
+	}

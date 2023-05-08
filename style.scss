@@ -1,10 +1,17 @@
-
+//Base
 @import "./sass/base/base";
-@import "./sass/layout/1_header";
-@import "./sass/layout/2_about";
-@import "./sass/layout/3_possibilities";
-@import "./sass/layout/4_availability";
-@import "./sass/layout/5_video";
-@import "./sass/layout/6_price";
-@import "./sass/layout/7_feedback";
-@import "./sass/layout/8_footer";
+
+//Layout
+@import "./sass/layout/1header";
+@import "./sass/layout/2about";
+@import "./sass/layout/3possibilities";
+@import "./sass/layout/4availability";
+@import "./sass/layout/5video";
+@import "./sass/layout/6price";
+@import "./sass/layout/7feedback";
+@import "./sass/layout/8footer";
+@import "./sass/layout/9size768px";
+@import "./sass/layout/10size320px";
+@import "./sass/layout/11burger";
+
+

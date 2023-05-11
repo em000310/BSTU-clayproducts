@@ -705,12 +705,16 @@ nav li {
 /*footer*/
 .section-footer {
   background-color: #fff;
+	position:relative;
+	/* left: -24px;
+	width: 1024px; 
+	*//*норм для кальк, плохо 1024*/
 }
 
 .container-footer {
   width: 1024px;
   height: 153px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .footer {
@@ -1477,7 +1481,7 @@ nav li {
     gap: 20px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .nav {
     position: fixed;
     visibility: hidden;
@@ -1543,3 +1547,100 @@ nav li {
     font-weight: lighter;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/*Secondpage*/
+
+.container-headerr{
+	width: 1024px;
+	height: 1000px;
+}
+
+.header-backk {
+  background-color: #0DF9F9;
+	height: 1000px;
+
+}
+
+.cost {
+	text-align: right;
+	padding: 27px 36px 20px 0;
+}
+
+.total-cost{
+	padding: 0 0 0 32px;
+} 
+
+
+.calc__menu{
+	margin: 35px 0 30px 23px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.calc{
+	margin-bottom: 100px;
+}
+
+
+.calc__menu h4, .container p, .style, .cost {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Baloo Chettan 2", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 19px;
+
+	transition: color 0.25 linear;
+}
+
+.container {
+	padding: 13px 24px 0 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container__inputs {
+	padding: 0 4px 0 0px;
+	width: 206px;
+	display: flex;
+	gap: 0;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.container__button {
+	width: 40px;
+	height: 40px;
+	background: #018CF2;
+	border-radius: 5px;
+	margin: 0;
+}
+
+
+.container__input {
+	background: rgba(174, 187, 198, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	padding: 3px 0;
+	width: 66px;
+	margin: 0;
+}
+
+.container__total-price {
+	width: 181px;
+	text-align: center;
+	padding: 0px 5px 2px 0px;
+}
+
+
+
+
+
+
+
+
+

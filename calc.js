@@ -20,7 +20,21 @@ function init() {
     setTotalPrice(totalCost);
 }
 
-
+const calculateSeparateAnswee = (item, action) => {
+    const input = item.querySelector('.container__input');
+    const price = item.querySelector('.container__total-price');
+    switch (action) {
+        case ACTION.PLUS:
+            input.value++;
+            setTotalPrice(Number(cost.dataset.value) + Number(input.dataset.price));
+            break;
+        case ACTION.MINUSE:
+            input.value--;
+            setTotalPrice(Number(cost.dataset.value) - Number(input.dataset.price));
+            break;
+    }
+    price.textContent = `${Number(input.value) * Number(input.dataset.price)} $`;
+};
 
 const calc = document.getElementById('calcul');
 

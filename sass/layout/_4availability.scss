@@ -1,0 +1,157 @@
+/*Availability*/	
+
+.section-availability {
+  background-color: #fff;
+	height: 900px;
+}
+
+.container-availability {
+	width: 760px;
+  height: 640px;
+	margin: 20px auto;
+}
+.availability{
+	color: #0094FF;
+
+	padding-top: 18px;	
+}
+
+.blueBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 60px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	justify-content: center;
+	}
+
+	.button_color{
+		color:#FFF;
+	}
+	
+	.staticButton {
+	max-width: 237px;
+	max-height: 112px;
+	min-height: 111px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	padding: 10px 20px;
+	gap: 10px;
+	background: #0094FF;
+	border-radius: 20px;
+	border: 0px;
+	}
+	
+	.staticButton {
+	font-family: 'Baloo Chettan 2';
+	font-style: bold;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 27px;
+	text-align: center;
+	color: #fff;
+	}
+
+	.staticButton:hover{
+		cursor: pointer;
+		background: #0DF9F9;
+	}
+
+.availability-title h3{
+	font-family: "Baloo Chettan 2", cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 52px;
+	text-align: center;
+	color: #0094FF;
+}
+
+.avability-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+	opacity: 0;
+	transition: all 2s;
+
+	margin-top: 62px;
+}
+.section-availability:hover .avability-main{
+	opacity: 1;
+	}
+
+.availability-main-navidation-right, .availability-main-navidation-left{
+	margin-top: 4px;
+}
+
+.icon-arrow-left, .icon-arrow-right{
+  width: 57px;
+	fill: #0094FF;
+}
+
+.icon-arrow-left:hover, .icon-arrow-right:hover{ 
+	fill: #0DF9F9;
+}
+
+.icon-arrow-left{
+	position: relative;
+	top: -450px;
+	left: -360px;
+}
+
+.icon-arrow-right{
+	position: relative;
+	top: -450px;
+	right: -360px;
+}
+
+.availability-cards{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 17px;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.availability-cards img:hover{
+	box-shadow: 0 0 30px 15px rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+.hide, .availability-card-title1{
+	display: block;
+}
+
+.availability-cards-top, .availability-cards-bottom{
+	display: flex;
+	gap: 45px;
+}
+
+.availability-card{
+	width: 198px;
+	height: 251px;
+}
+
+.availability-card-title, .availability-card-title1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 17px;
+	color: #0094FF;
+
+	margin-top: 4px;
+}
+
+.availability-cards-bottom{
+	margin-top: 59px;
+}

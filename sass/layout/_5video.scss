@@ -1,0 +1,51 @@
+/*video*/	
+
+.section-video {
+  background-color: #0094FF;
+}
+
+.container-video {
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+}
+
+.video-title h3{
+	font-family: "Baloo Chettan 2", cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 52px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #fff;
+
+	padding: 45px 0 32px;
+}
+
+.video-image{
+	
+	height: 522px;
+	
+}
+	
+.video-image-container{
+	height: 100%;
+  width: 100%;
+	position: relative;
+}
+
+.video-yuotube{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-image-container img{
+	margin-top: 196px;
+	margin-left: 447px;
+}

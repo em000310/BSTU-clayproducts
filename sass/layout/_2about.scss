@@ -1,0 +1,52 @@
+/*about-us*/
+
+.section-about-us {
+  background-color: #fff;
+}
+
+.container-abous-us {
+	width: 1024px;
+  height: 780px;
+	margin: 0 auto;
+  
+}
+
+.about-us {
+	margin: 0 24px;
+  padding-top: 36px;
+  display: flex;
+}
+
+.about-us-left img {
+  width: 452px;
+  height: 708px;
+} 
+.about-us-right {
+  color: #0094FF;
+  font-style: normal;
+}
+
+.about-us-right-title h3{
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+	letter-spacing: 0.3px;
+
+	padding-left: 132px;
+  margin-top: 29px;
+}
+
+.about-us-right-list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 82px;
+  padding-left: 82px;
+}
+
+.about-us-right-list li {
+  margin-bottom: 36px;
+}/*# sourceMappingURL=style.css.map */

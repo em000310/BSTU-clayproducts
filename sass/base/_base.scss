@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+    
+h1, h2, h3, h4, h5, h6, a{
+	text-decoration: none;
+}
+
+.menu-btn{
+	display: none;
+}
+
+#menu-toggle,[for=menu-toggle] {
+	display: none;
+}
+
+nav li{
+list-style-type:none;
+}
